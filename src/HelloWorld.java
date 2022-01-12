@@ -81,8 +81,7 @@ public class HelloWorld {
 
 
 
-
-
+        skalvisefram.visefram();
 
 
 
