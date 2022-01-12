@@ -1,8 +1,10 @@
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedHashMap;
+
+import java.util.Scanner;
 import java.util.Map;
+import java.util.HashMap;
+import java.util.ArrayList;
 import java.util.Arrays;
+
 
 public class HelloWorld {
     public static void main(String[] args) {
@@ -49,5 +51,25 @@ public class HelloWorld {
         }
 
 
+
+        //PASSING USER INPUT TO A NEW METHOD THAT PRINTS IT
+
+
+        Scanner myScan = new Scanner(System.in);
+        System.out.println("Enter Something");
+        String myString = myScan.nextLine();
+
+        tim(myString);
+
+
+
+
+
+
     }
+
+    public static void tim(String myString) {
+        System.out.println(myString);
+    }
+
 }
