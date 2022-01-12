@@ -61,12 +61,23 @@ public class HelloWorld {
         //System.out.println("Enter Something");
         //String myString = myScan.nextLine();
 
-        //tim(myString);
+        //tim();
+
+
+
+
+        //FUNCTIONS FROM OTHER CLASSES
 
 
 
         Game GearsOfWar = new Game("Gears of War", 2006);
         GearsOfWar.speak();
+
+
+        //INHERITANCE, MOVIE BORROWS FROM GAME, GAME IS SUPERCLASS
+
+        Movie Inglorious = new Movie("Inglorious Bastards", 2001);
+        Inglorious.speak();
 
 
 
@@ -77,5 +88,9 @@ public class HelloWorld {
 
 
     }
+
+    //public static void tim() {
+      //  System.out.println(myString);
+    //}
 
 }
