@@ -77,10 +77,7 @@ public class Øving {
         */
 
 
-
-
-
-
+        
 
 
 
