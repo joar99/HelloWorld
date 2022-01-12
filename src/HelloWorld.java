@@ -1,4 +1,6 @@
 
+
+
 import java.util.Scanner;
 import java.util.Map;
 import java.util.HashMap;
@@ -55,21 +57,25 @@ public class HelloWorld {
         //PASSING USER INPUT TO A NEW METHOD THAT PRINTS IT
 
 
-        Scanner myScan = new Scanner(System.in);
-        System.out.println("Enter Something");
-        String myString = myScan.nextLine();
+        //Scanner myScan = new Scanner(System.in);
+        //System.out.println("Enter Something");
+        //String myString = myScan.nextLine();
 
-        tim(myString);
-
-
+        //tim(myString);
 
 
 
+        Game GearsOfWar = new Game("Gears of War", 2006);
+        GearsOfWar.speak();
 
-    }
 
-    public static void tim(String myString) {
-        System.out.println(myString);
+
+
+
+
+
+
+
     }
 
 }
